@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(45, 41, 41);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(236, 209, 9);
+    text-align: center;
+}
+
+.dogCard {
+    margin: auto;
+    min-width: 400px;
+    width: 30%;
+}
+
+.card {
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(54, 50, 50);
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card div {
+    margin: auto;
+    margin-left: 0px;
+}
+
+.card h4 {
+    display: block;
+    color: rgb(14, 187, 245);
+    width: 100%;
+    font-size: 25px;
+    margin: 0px 10px 10px 0px;
+}
+.card p {
+    display: block;
+    margin: 0px;
+}
+
+.aboutDog {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(54, 50, 50);
+    height: 100vh;
+}
+
+.aboutDog img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.aboutDog h4 {
+    padding: 0px 10px 10px 10px;
+    border-bottom: 1px solid rgb(79, 77, 77);
+    font-size: 27px;
+    margin: 0px;
+    color: white;
+    font-weight: lighter;
+}
+
+.aboutDog h3 {
+    text-align: left;
+    border-bottom: 1px solid rgb(79, 77, 77);
+    padding: 20px 0px 10px 10px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.aboutDog p {
+    color: white;
+    padding: 0px 0px 0px 10px;
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+button {
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(236, 209, 9);
+    border-radius: 5vh;
+    margin: 20px;
+    margin-left: 68%;
+    font-size: 2vh;
+}
