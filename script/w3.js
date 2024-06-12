@@ -2,7 +2,6 @@ const url = "https://usersdogs.dmytrominochkin.cloud/dogs";
 const urlPic = "https://usersdogs.dmytrominochkin.cloud";
 
 let mainBlock = document.querySelector(".dogCard");
-// console.dir(mainBlock);
 
 let dogListUrl = fetch(url);
 
@@ -22,8 +21,11 @@ function createCard(data) {
     let cardName = document.createElement("h4");
     let cardSex = document.createElement("p");
 
-    cardBody.addEventListener("click", (e) => {
-        console.dir(e);
+    cardBody.addEventListener("click", () => {
+        for (let key in data) {
+            localStorage.setItem(key, data[key]);
+        }
+        window.open("dogInfo.html", "_blank");
     });
 
     cardPhoto.src = urlPic + data.dogImage;
@@ -38,8 +40,4 @@ function createCard(data) {
     textCont.append(cardSex);
 
     return cardBody;
-}
-
-function openInfo(data) {
-    console.log("Новая вкладка");
 }

@@ -6,18 +6,22 @@ body {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(236, 209, 9);
     text-align: center;
 }
 
 .dogCard {
-    margin: auto;
-    min-width: 400px;
-    width: 30%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
+    width: 15%;
+    min-width: 250px;
+    margin: 10px;
     color: white;
     border-radius: 15px;
     background-color: rgb(54, 50, 50);
@@ -52,8 +56,9 @@ h3 {
     width: 40%;
     margin: auto;
     text-align: left;
-    background-color: rgb(54, 50, 50);
-    height: 100vh;
+    background-color: rgb(55, 53, 53);
+    /* height: 100vh; */
+    padding: 15px;
 }
 
 .aboutDog img {
